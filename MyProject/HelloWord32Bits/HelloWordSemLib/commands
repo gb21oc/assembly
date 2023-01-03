@@ -1,0 +1,2 @@
+1- nasm -f elf32 assembly.asm 
+2- ld --entry _start -m elf_i386 -o helloWord assembly.o
